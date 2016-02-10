@@ -23,6 +23,11 @@ def main():
     # Volvo with 30,000 miles, priced
     # at $18,500, with 5 passenger capacity.
     ellert = vehicles.Car('Ellert', 2000, 30000, 18500.0, 1)
+    
+    # Create a Car object for a used 2001
+    # Alfa Romeo with 150,000 miles, priced
+    # at $1500 with 5 passengers capacity
+    alfa = vehicles.Car('Alfa Romeo', 2001, 150000, 1500, 5)
 
     print('USED CAR INVENTORY')
     print('===================')
