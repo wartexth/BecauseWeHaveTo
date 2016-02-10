@@ -19,6 +19,11 @@ def main():
     # at $18,500, with 5 passenger capacity.
     suv = vehicles.SUV('Volvo', 2000, 30000, 18500.0, 5)
 
+    # Create an SUV object for a used 2000
+    # Volvo with 30,000 miles, priced
+    # at $18,500, with 5 passenger capacity.
+    ellert = vehicles.Car('Ellert', 2000, 30000, 18500.0, 1)
+
     print('USED CAR INVENTORY')
     print('===================')
     
